@@ -1,34 +1,18 @@
-# Foobar
+# CRUD-Laravel-JS-MySQL
 
-Foobar is a Python library for dealing with word pluralization.
+
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+First, you need to update the .env.example of the project with your credentials
 
 ## Usage
 
-```python
-import foobar
+To generate fake data for the database, you need to execute this command in the project folder: php artisan db:seed --class=ProductsSeeder
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+This command execute a seeder using a model factory.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
