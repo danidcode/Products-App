@@ -4,7 +4,7 @@
 
 ## Installation
 
-First, you need to update the .env.example of the project with your credentials
+First, you need to update the .env.example file of the project with your credentials
 
 ## Usage
 
