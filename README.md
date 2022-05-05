@@ -4,7 +4,9 @@
 
 ## Installation
 
-First, you need to update the .env.example file of the project with your credentials
+First, you need to update the .env.example file of the project with your credentials.
+
+To create the database, you need to use the file BaseDeDatos_tca-tik.sql in the folder named app.
 
 ## Usage
 
